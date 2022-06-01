@@ -1,9 +1,9 @@
-```c
-#include <stdio.h>
+*important*
+_important_
 
-int main(void){
-  printf("Hello World!\n");
-  
-  return 0;
-}  
-```
+
+**important**
+__important__
+
+***important***
+___important___
