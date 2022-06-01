@@ -1,9 +1,3 @@
-*important*
-_important_
+<www.chosun.ac.kr>
 
-
-**important**
-__important__
-
-***important***
-___important___
+[chosun](<www.chosun.ac.kr>)
