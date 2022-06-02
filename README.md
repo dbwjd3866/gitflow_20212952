@@ -31,12 +31,11 @@ ps(process status)
 
 ps는 프로세스에 대한 많은 정보를 담고 있고 매우 많이 사용되는 명령으로 옵션이 매우 다양합니다. ps는 옵션에는 세가지 종류가 있습니다.
 
-1. Unix Option : 앞에 '-' (dash)가 붙는 옵션 표기방법입니다. 
-2. 
-3. BSD Option : '-' 를 붙이지 않습니다.
-
+1. Unix Option : 앞에 '-' (dash)가 붙는 옵션 표기방법입니다.  
+2. BSD Option : '-' 를 붙이지 않습니다.
 3. GNU Option : 명령어 앞에 '--' (double dash)를 붙입니다.
 
 __ps와 top의 차이점__
+
 ps는 ps한 시점에 proc에서 검색한 cpu 사용량
 top은 proc에서 일정 주기로 합산해 cpu 사용율 출력!
