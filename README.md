@@ -70,13 +70,14 @@ __ps와 top의 차이점__
 - 현재 쉘 세션에서 실행시킨 백그라운드 작업의 목록이 출력됨
 - 각 작업에는 번호가 붙어있어 kill명령어 뒤에 '%작업번호'를 입력하여 종료시킬 수 있음 (작업번호: PID와는 달리, 별도로 부여되는 백그라운드 작업목록 상의 번호)
 
-!<img src="https://user-images.githubusercontent.com/106691667/171998467-adc4de15-3f63-46dd-9e5e-ac48f5e1afe5.jpg" width="70%" height="70%"/>
+!<img src="https://user-images.githubusercontent.com/106691667/171998467-adc4de15-3f63-46dd-9e5e-ac48f5e1afe5.jpg" width="60%" height="60%"/>
 
 
 ### __kill__
 
 - 프로세스를 종료시키는 리눅스 명령어 (kill 명령어는 이름 때문에 프로세스를 강제로 종료시키는 명령어로 오해를 사기 쉬운데, 실제로는 프로세스에 시그널(signal)을 보내는 명령어입니다. 이름이 kill 인 이유는 어떤 시그널을 보낼 지 지정하지 않으면 기본적으로 SIGTERM 시그널을 보내게 되는데 SIGTERM의 기본 동작이 프로그램 종료이기 때문입니다.)
 - 프로세스에 종료 메시지를 보냄
+- 
 !<img src="https://user-images.githubusercontent.com/106691667/171998784-f6824efb-e82d-48aa-893d-304d46f5545e.jpg" width="70%" height="70%"/>
 
 - kill 명령어에 -l 옵션을 주면 위와 같이 시그널의 숫자(number)와 이름이 출력됨
