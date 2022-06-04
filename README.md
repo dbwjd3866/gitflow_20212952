@@ -5,7 +5,7 @@
 - 시스템의 상태를 실시간으로 빠르게 파악 가능(CPU, Memory, --Process)
 - 옵션 없이 입력하면 interval 간격(기본 3초)으로 화면을 갱신하며 정보를 보여줌
 
-!<img src="https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg" width="50%" height="50%"/>
+!<img src="https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg" width="70%" height="70%"/>
 
 - top 실행 전 옵션
 순간의 정보를 확인하려면 -b 옵션 추가(batch 모드)
@@ -70,13 +70,15 @@ __ps와 top의 차이점__
 - 현재 쉘 세션에서 실행시킨 백그라운드 작업의 목록이 출력됨
 - 각 작업에는 번호가 붙어있어 kill명령어 뒤에 '%작업번호'를 입력하여 종료시킬 수 있음 (작업번호: PID와는 달리, 별도로 부여되는 백그라운드 작업목록 상의 번호)
 
-![20220604_211325](https://user-images.githubusercontent.com/106691667/171998467-adc4de15-3f63-46dd-9e5e-ac48f5e1afe5.jpg)
+!<img src="https://user-images.githubusercontent.com/106691667/171998467-adc4de15-3f63-46dd-9e5e-ac48f5e1afe5.jpg" width="70%" height="70%"/>
+
 
 ### __kill__
 
 - 프로세스를 종료시키는 리눅스 명령어 (kill 명령어는 이름 때문에 프로세스를 강제로 종료시키는 명령어로 오해를 사기 쉬운데, 실제로는 프로세스에 시그널(signal)을 보내는 명령어입니다. 이름이 kill 인 이유는 어떤 시그널을 보낼 지 지정하지 않으면 기본적으로 SIGTERM 시그널을 보내게 되는데 SIGTERM의 기본 동작이 프로그램 종료이기 때문입니다.)
 - 프로세스에 종료 메시지를 보냄
-![20220604_211658](https://user-images.githubusercontent.com/106691667/171998784-f6824efb-e82d-48aa-893d-304d46f5545e.jpg)
+!<img src="https://user-images.githubusercontent.com/106691667/171998784-f6824efb-e82d-48aa-893d-304d46f5545e.jpg" width="70%" height="70%"/>
+
 - kill 명령어에 -l 옵션을 주면 위와 같이 시그널의 숫자(number)와 이름이 출력됨
  
 - 시그널을 보낼 때는 kill -(보낼 시그널) PID 이렇게 사용하는데, 지정된 PID를 갖는 프로세스에 지정된 시그널이 전달되는 구조로 시그널은 숫자로 지정해도 되고 앞에 SIG를 빼고 이름을 넣어도 됨 
