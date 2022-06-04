@@ -5,7 +5,7 @@
 - 시스템의 상태를 실시간으로 빠르게 파악 가능(CPU, Memory, --Process)
 - 옵션 없이 입력하면 interval 간격(기본 3초)으로 화면을 갱신하며 정보를 보여줌
 
-!<img src="(https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg" width="50%" height="50%"/>
+!<img src="https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg" width="50%" height="50%"/>
 
 - top 실행 전 옵션
 순간의 정보를 확인하려면 -b 옵션 추가(batch 모드)
