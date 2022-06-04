@@ -5,7 +5,7 @@
 - 시스템의 상태를 실시간으로 빠르게 파악 가능(CPU, Memory, --Process)
 - 옵션 없이 입력하면 interval 간격(기본 3초)으로 화면을 갱신하며 정보를 보여줌
 
-![20220602_151712](https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg)
+![top](https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg)
 
 - top 실행 전 옵션
 순간의 정보를 확인하려면 -b 옵션 추가(batch 모드)
@@ -39,7 +39,7 @@ ps(process status)
 - 현재 실행중인 프로세스의 상태를 알고 싶을때 사용
 - ps는 프로세스에 대한 많은 정보를 담고 있고 매우 많이 사용되는 명령으로 에는 세가지 종류가 있음
 
-![20220602_151813](https://user-images.githubusercontent.com/106691667/171565560-a7799d7c-cc70-4ab9-aaf8-e69e0faa4115.jpg)
+!<ps="https://user-images.githubusercontent.com/106691667/171565560-a7799d7c-cc70-4ab9-aaf8-e69e0faa4115.jpg" width="50%" height="50%">
 
 1. Unix Option : 앞에 '-' (dash)가 붙는 옵션 표기방법입니다.  
 2. BSD Option : '-' 를 붙이지 않습니다.
