@@ -7,7 +7,7 @@
 - 시스템의 상태를 실시간으로 빠르게 파악 가능(CPU, Memory, --Process)
 - 옵션 없이 입력하면 interval 간격(기본 3초)으로 화면을 갱신하며 정보를 보여줌
 
-!<img src="https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg" width="70%" height="70%"/>
+<img src="https://user-images.githubusercontent.com/106691667/171565535-ba5ecdc5-0831-4d56-bb2e-e03feed78f79.jpg" width="70%" height="70%"/>
 
 ##### - top 실행 전 옵션
 
@@ -33,14 +33,14 @@ shift + t : 프로세스가 돌아가고 있는 시간 순
 
 등
 
-어떤 프로세스가 CPU를 과다하게 잡고있는지 분석 가능!
+__어떤 프로세스가 CPU를 과다하게 잡고있는지 분석 가능!__
 
 ### __ps(process status)__
 
 - 현재 실행중인 프로세스의 상태를 알고 싶을때 사용
 - ps는 프로세스에 대한 많은 정보를 담고 있고 매우 많이 사용되는 명령으로 에는 세가지 종류가 있음
 
-!<img src="https://user-images.githubusercontent.com/106691667/171565560-a7799d7c-cc70-4ab9-aaf8-e69e0faa4115.jpg" width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/106691667/171565560-a7799d7c-cc70-4ab9-aaf8-e69e0faa4115.jpg" width="50%" height="50%"/>
 
 1. Unix Option : 앞에 '-' (dash)가 붙는 옵션 표기방법입니다.  
 2. BSD Option : '-' 를 붙이지 않습니다.
@@ -69,7 +69,7 @@ shift + t : 프로세스가 돌아가고 있는 시간 순
 - 현재 쉘 세션에서 실행시킨 백그라운드 작업의 목록이 출력됨
 - 각 작업에는 번호가 붙어있어 kill명령어 뒤에 '%작업번호'를 입력하여 종료시킬 수 있음 (작업번호: PID와는 달리, 별도로 부여되는 백그라운드 작업목록 상의 번호)
 
-!<img src="https://user-images.githubusercontent.com/106691667/171998467-adc4de15-3f63-46dd-9e5e-ac48f5e1afe5.jpg" width="60%" height="60%"/>
+<img src="https://user-images.githubusercontent.com/106691667/171998467-adc4de15-3f63-46dd-9e5e-ac48f5e1afe5.jpg" width="60%" height="60%"/>
 
 
 ### __kill__
@@ -77,7 +77,7 @@ shift + t : 프로세스가 돌아가고 있는 시간 순
 - 프로세스를 종료시키는 리눅스 명령어 (kill 명령어는 이름 때문에 프로세스를 강제로 종료시키는 명령어로 오해를 사기 쉬운데, 실제로는 프로세스에 시그널(signal)을 보내는 명령어입니다. 이름이 kill 인 이유는 어떤 시그널을 보낼 지 지정하지 않으면 기본적으로 SIGTERM 시그널을 보내게 되는데 SIGTERM의 기본 동작이 프로그램 종료이기 때문입니다.)
 - 프로세스에 종료 메시지를 보냄
  
-!<img src="https://user-images.githubusercontent.com/106691667/171998784-f6824efb-e82d-48aa-893d-304d46f5545e.jpg" width="70%" height="70%"/>
+<img src="https://user-images.githubusercontent.com/106691667/171998784-f6824efb-e82d-48aa-893d-304d46f5545e.jpg" width="70%" height="70%"/>
 
 - kill 명령어에 -l 옵션을 주면 위와 같이 시그널의 숫자(number)와 이름이 출력됨
  
@@ -100,9 +100,9 @@ shift + t : 프로세스가 돌아가고 있는 시간 순
 
 ### __매크로 재생하는 법__
 - 중립모드에서 @a 라고 누르면 매크로 a가 재생!
-(@@를 누르면 제일 마지막에 재생된 매크로, 그러니까 가장 최근에  @b 를 했다면 @@때 재생되는 매크로는 b가 됩니다.)
+   (@@를 누르면 제일 마지막에 재생된 매크로, 그러니까 가장 최근에  @b 를 했다면 @@때 재생되는 매크로는 b가 됩니다.)
 
-(여기서 @a앞에 [숫자]@a를 하면 숫자에 들어간 만큼 매크로를 실행)
+   ->여기서 @a앞에 [숫자]@a를 하면 숫자에 들어간 만큼 매크로를 실행!
 
 ### __매크로 파일로 저장하는법__
 1. 어려운 매크로라 버리기 아까운 경우엔 ~/.vimrc 파일을 열어보자
