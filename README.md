@@ -39,7 +39,7 @@ ps(process status)
 - 현재 실행중인 프로세스의 상태를 알고 싶을때 사용
 - ps는 프로세스에 대한 많은 정보를 담고 있고 매우 많이 사용되는 명령으로 에는 세가지 종류가 있음
 
-!<ps="https://user-images.githubusercontent.com/106691667/171565560-a7799d7c-cc70-4ab9-aaf8-e69e0faa4115.jpg" width="50%" height="50%">
+!<img src="https://user-images.githubusercontent.com/106691667/171565560-a7799d7c-cc70-4ab9-aaf8-e69e0faa4115.jpg" width="50%" height="50%"/>
 
 1. Unix Option : 앞에 '-' (dash)가 붙는 옵션 표기방법입니다.  
 2. BSD Option : '-' 를 붙이지 않습니다.
